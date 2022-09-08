@@ -1,0 +1,143 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none;
+}
+/*Header Css*/
+header{
+    height: 50px;
+    color:#fff;
+    background-color:#cf1e26;
+}
+#brand{
+    float: left;
+    margin-left: 2%;
+    font-size: 35px;
+}
+#brand >a{
+    color:white !important
+}
+#social{
+    float:right;
+    margin-right: 2%;
+}
+.socialLogo{
+    height: 50px;
+}
+#dropdown{
+    /*border:1px solid white;*/
+    width: 30%;
+    height: 30px;
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 35%;
+}
+select{
+    font-size: 15px;
+    text-align: center;
+    height: 30px;
+}
+/*content Css*/
+#content{
+    width: 80%;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#filterDiv{
+    height: 550px;
+    width: 20%;
+    border: 2px solid grey;
+    float: left;
+}
+.filterbyprice{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3%;
+}
+.price{
+    text-align: left;
+    margin-top: 3%;
+    font-size:20px; 
+}
+.filterbyitems{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3% ;
+}
+.items{
+    text-align: left;
+    margin-top: 3%;
+    font-size: 20px;
+}
+.filterbylocation{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3%;
+}
+.location{
+    text-align: left;
+    margin-top: 3%;
+    font-size: 20px;
+}
+#contentDiv{
+    /*height: 800px;*/
+    width: 75%;
+    margin-left: 4%;
+    border: none;
+    float: left;
+}
+.tilecontainer{
+    width: 30%;
+    height: 280px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.tilecomponent1{
+    width: 100%;
+    height: 140px;
+}
+.tilecomponent1 >img{
+    width: 100%;
+    height: 140px;
+}
+.tilecomponent2{
+    margin-top: 2%;
+    text-align: center;
+}
+.componentHeading{
+    font-size: 25px;
+    font-weight: bold;
+}
+.componentHeading >a {
+    text-decoration: none;
+    color: black;
+}
+.componentSubHeading{
+    font-size: 20px;
+    margin-top: 3%;
+}
+.order{
+    margin-top: 6%;
+    background-color: #cf1e26;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid;
+}
+/*Footer Css*/
+footer{
+    margin-top: 5%;
+    height: 100px;
+    text-align: center;
+    background-color: #cf1e26;
+    color: white;
+    text-align: center;
+}
+#filterText{
+    margin-top: 3%;
+    font-size: 20px;
+}
